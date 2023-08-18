@@ -1,10 +1,8 @@
 <script setup>
 defineProps(["buttonText"])
 </script>
-
-
 <template>
-   <button>{{ buttonText }}</button> 
+   <button>{{buttonText }}</button> 
 </template>
 
 <style scoped>

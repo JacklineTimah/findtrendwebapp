@@ -1,19 +1,20 @@
 <script setup>
-defineProps(["buttonText"])
+import ButtonComponent from './components/ButtonComponent.vue';
+import Card1 from './components/Card1.vue';
+import TheNavbar from './components/TheNavbar.vue';
+
 </script>
 
-
 <template>
-   <button>{{ buttonText }}</button> 
+  <header>
+    <div>
+      <ButtonComponent/>
+      <Card1/>
+      <TheNavbar/>
+    </div>
+  </header>
 </template>
 
 <style scoped>
- button{
-    background-color: white;
-    padding: 12px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 48px;
- }
-</style>
+                                                                                                                                                                                                                                       
+</style> 
